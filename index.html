@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <!-- fav-icon -->
     <link rel="icon" type="image/x-icone" href="https://img.icons8.com/?size=512&id=4Xem_S1LR0kT&format=png">
+    <!-- fontawesome -->
     <script src="https://kit.fontawesome.com/143ac30e83.js" crossorigin="anonymous"></script>
 </head>
 
@@ -50,7 +51,7 @@
         </div>
     </header>
     <!-- header-end -->
-    <!-- main-start -->
+    <!-- main1-start -->
     <main id="Courses">
         <h1 class="NAME2">OUR COURSES</h1>
         <div class="cards">
@@ -129,7 +130,9 @@
             </div>
         </div>
     </main>
-    <!-- main-end -->
+    <!-- main1-end -->
+
+    <!-- main2-start-->
     <main id="About-us">
         <div class="Card">
             <div class="Card-banner"><img src="https://cdn-icons-png.flaticon.com/128/4387/4387822.png"
@@ -150,24 +153,30 @@
     <main id="FAQ">
 
         <div class="FAQ-card">
-            <h1 class="NAME2">FAQ</h1>
-            <p class="NAME3">If you have any question about us you can ask us, we will reply you within 24 hours</p>
+            <h1 class="NAME3">FAQ</h1>
+            <p>If you have any question about us you can ask us, we will reply you within 24 hours</p>
             <br><br><br>s
             <div class="FAQ-item">
                 <div class="FAQ-banner"><img class="Banner" src="Image/faq.png"></div>
                 <div class="FAQ-text">
-                    <form style="align-items:center ;">
-                        <span class="NAME3">NAME : </span><input type="text" placeholder="Enter name"><br> <br>
-                        <span class="NAME3">Email : </span><input type="email" placeholder="Enter mail"><br> <br>
-                        <span class="NAME3">message : </span><textarea placeholder="message"></textarea>
-                    </form><br>
-                    <button type="submit" class="BTN">submit</button>
+                    <form>
+                        <label for="name">Name:</label>
+                        <input type="text" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea required></textarea>
+
+                        <button class="BTN" type="submit">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
     </main>
     <footer>
-        <h1 class="NAME2">Be Connected</h1>
+        <h1 class="NAME3">Be Connected</h1>
         <br> <br>
         <div class="container">
             <p>&copy; 2023 TechScript. All rights reserved.</p>
